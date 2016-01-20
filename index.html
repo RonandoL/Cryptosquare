@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/styles.css" media="screen">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
-    <title>Title</title>
+    <title>Cryptosquare</title>
   </head>
 
   <body>
@@ -15,6 +15,19 @@
         <h1>Header</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
       </div>  <!-- /JUMBOTRON -->
+      <form id="input">
+        <div class="form-group">
+          <label class="encrypt">Write your message to be encoded here!</label>
+          <input type="text" class="encrypt">
+          <button type="submit" class="btn btn-default btn-lg" name="button">Click here to encode!</button>
+        </div>
+      </form>
+
+      <div id="coded">
+        <p>
+          <span class="coded"></span>
+        </p>
+      </div>
 
   <!-- Row: 1 -->
       <div class="row">
